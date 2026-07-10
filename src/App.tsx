@@ -221,7 +221,7 @@ const SITE_CONTENT = {
   },
 
   footer: {
-    founderName: 'Deepika G',
+    founderName: 'Deepika Govind',
     founderTitle: 'Founder & Director',
 
     quickLinks: 'Quick Links',
@@ -1043,11 +1043,11 @@ function Footer() {
               </span>
             </div>
 
-            <div className="border-t border-slate-800 pt-5 max-w-xs">
-              <p className="text-white text-lg font-semibold">
+            <div className="mt-3 max-w-xs">
+              <p className="text-white text-2xl font-bold tracking-wide">
                 {footer.founderName}
               </p>
-              <p className="text-slate-400 text-sm mt-1">
+              <p className="text-slate-400 text-base mt-1">
                 {footer.founderTitle}
               </p>
             </div>
