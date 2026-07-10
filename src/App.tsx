@@ -221,9 +221,6 @@ const SITE_CONTENT = {
   },
 
   footer: {
-    description:
-      'Neuzura Technologies is a premier innovation firm specializing in Artificial Intelligence, Robotics, and Intellectual Property services.',
-
     founderName: 'Deepika G',
     founderTitle: 'Founder & Director',
 
@@ -1035,18 +1032,22 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pb-10 border-b border-slate-800">
           {/* Brand */}
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center shadow">
-                <Cpu size={16} className="text-white" />
-              </div>
-              <span className="text-white font-bold text-base">{company.name}</span>
+            <div className="flex items-center gap-3 mb-6">
+              <img
+                src={logoImage}
+                alt="Neuzura Technologies Logo"
+                className="h-12 w-auto object-contain"
+              />
+              <span className="text-white font-bold text-xl">
+                {company.name}
+              </span>
             </div>
-            <p className="text-sm leading-relaxed text-slate-400 max-w-xs">{footer.description}</p>
-            <div className="mt-6 pt-5 border-t border-slate-800 max-w-xs">
-              <p className="text-white font-semibold">
+
+            <div className="border-t border-slate-800 pt-5 max-w-xs">
+              <p className="text-white text-lg font-semibold">
                 {footer.founderName}
               </p>
-              <p className="text-sm text-slate-400 mt-1">
+              <p className="text-slate-400 text-sm mt-1">
                 {footer.founderTitle}
               </p>
             </div>
