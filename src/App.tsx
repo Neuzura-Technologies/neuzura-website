@@ -223,6 +223,10 @@ const SITE_CONTENT = {
   footer: {
     description:
       'Neuzura Technologies is a premier innovation firm specializing in Artificial Intelligence, Robotics, and Intellectual Property services.',
+
+    founderName: 'Deepika G',
+    founderTitle: 'Founder & Director',
+
     quickLinks: 'Quick Links',
     contactHeading: 'Contact',
     email: 'neuzuratechnologies@gmail.com',
@@ -1038,6 +1042,14 @@ function Footer() {
               <span className="text-white font-bold text-base">{company.name}</span>
             </div>
             <p className="text-sm leading-relaxed text-slate-400 max-w-xs">{footer.description}</p>
+            <div className="mt-6 pt-5 border-t border-slate-800 max-w-xs">
+              <p className="text-white font-semibold">
+                {footer.founderName}
+              </p>
+              <p className="text-sm text-slate-400 mt-1">
+                {footer.founderTitle}
+              </p>
+            </div>
           </div>
 
           {/* Quick Links Column */}
