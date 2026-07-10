@@ -1027,7 +1027,7 @@ function Footer() {
 
 
   return (
-    <footer className="bg-slate-900 text-slate-400">
+    <footer className="bg-gradient-to-r from-slate-800 via-blue-900 to-slate-800 text-slate-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pb-10 border-b border-slate-800">
           {/* Brand */}
@@ -1044,7 +1044,7 @@ function Footer() {
             </div>
 
             <div className="mt-3 max-w-xs">
-              <p className="text-white text-2xl font-bold tracking-wide">
+              <p className="text-white text-xl font-bold">
                 {footer.founderName}
               </p>
               <p className="text-slate-400 text-base mt-1">
