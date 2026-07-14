@@ -51,7 +51,7 @@ Our work involves:
 ## 🌐 Connect With Us
 
 Website:
-https://neuzura.vercel.app
+https://neuzura.com
 
 LinkedIn:
 https://www.linkedin.com/company/neuzura-technologies
