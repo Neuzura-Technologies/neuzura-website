@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import PatentProcess from "./components/PatentProcess";
 import {
   Shield,
   Brain,
@@ -26,11 +27,11 @@ import {
 import { supabase } from './lib/supabase';
 import bgImage from './background.png';
 import logoImage from './logo1.png';
-import iprImg from './ipr.jpg';
-import aiImg from './robot.jpg';
-import robotImg from './ai.jpg';
+import iprImg from './ipr.png';
+import aiImg from './robot.png';
+import robotImg from './aiml.png';
 import consultingImg from './innovation.jpg';
-import trainingImg from './prof.jpg';
+import trainingImg from './prof.png';
 import serviceBg from './services.png';
 
 // ============================================================
@@ -93,34 +94,78 @@ const SITE_CONTENT = {
     ],
   },
 
+  patentProcess: {
+    heading: 'End-to-End Patent Support',
+    subheading:
+      'Whether you have an idea, abstract, research paper, PPT, or working prototype, we guide you through every stage of the patent journey.',
+
+    note:
+      'No prior patent knowledge is required. Whether you are a student, researcher, startup, or organization, we guide you through every stage of the patent process.',
+
+    steps: [
+      {
+        title: 'Idea Evaluation',
+        description:
+          'Share your idea, abstract, PPT, research paper, or prototype. We assess its novelty and patentability.',
+      },
+      {
+        title: 'Prior Art Search',
+        description:
+          'We conduct a comprehensive patent search to identify existing technologies and evaluate the uniqueness of your innovation.',
+      },
+      {
+        title: 'Patent Drafting',
+        description:
+          'Our experts prepare a professionally drafted patent specification with detailed descriptions, drawings, and strong claims.',
+      },
+      {
+        title: 'Patent Filing',
+        description:
+          'We file your patent application with the appropriate patent office, ensuring complete documentation and compliance.',
+      },
+      {
+        title: 'Publication & FER Support',
+        description:
+          'We monitor publication, handle examination procedures, and prepare professional responses to First Examination Reports (FER).',
+      },
+      {
+        title: 'Patent Grant',
+        description:
+          'We continue supporting your application until the patent is successfully granted.',
+      },
+    ],
+  },
+  highlight:
+    'Have only an idea, abstract, PPT, research paper, or prototype? That is enough to get started. We will help transform your innovation into a professionally drafted patent application.',
+
   achievements: {
     heading: 'Milestones & Achievements',
     subheading: 'A record of impact built through rigorous research and strategic execution.',
     metrics: [
       {
         icon: 'Award',
-        value: '100+',
-        label: 'Patent Publications Supported',
-        description: 'Successfully guided inventors through the full patent publication lifecycle.',
+        value: '150+',
+        label: 'Patent Publications',
+        description: 'Patent drafting, filing, and publication support delivered for researchers, institutions, and innovators.',
       },
       {
         icon: 'BookOpen',
         value: '10+',
-        label: 'Copyright Grant Secured',
-        description: 'Official copyright protection granted for proprietary creative and technical works.',
+        label: 'Copyright Registrations',
+        description: 'Creative and technical works successfully protected through copyright registration.',
       },
       {
         icon: 'Stamp',
         value: '20+',
-        label: 'Registered Design Grant',
-        description: 'Formal registered design protection secured for innovative product aesthetics.',
+        label: 'Registered Designs',
+        description: 'Industrial design registrations secured to protect innovative product designs.',
       },
       {
-        icon: 'BarChart2',
-        value: 'Active', // Changed from "Proven"
-        label: 'Industry Consultancy', // Changed label
+        icon: 'Cpu',
+        value: '10+',
+        label: 'Technical Projects',
         description:
-          'Providing expert technical guidance and system architecture strategies for enterprise and startup partners.',
+          'Successfully delivered AI, Robotics, IoT, Web Applications, Mobile Applications, and Embedded Solutions across academic and industry projects.',
       },
     ],
   },
@@ -128,34 +173,42 @@ const SITE_CONTENT = {
   about: {
     heading: 'About Neuzura Technologies',
     subheading:
-      'We are an elite multi-disciplinary innovation firm, fusing rigorous engineering capabilities with comprehensive intellectual property strategies.',
+      'Neuzura Technologies is an innovation-driven company specializing in Artificial Intelligence, Robotics, Intellectual Property, and Technology Consulting. We help researchers, educational institutions, startups, MSMEs, and businesses transform innovative ideas into protected intellectual property and practical technology solutions.',
     approach: {
-      heading: 'Our Engineering DNA',
+      heading: 'What We Do',
       points: [
         {
           icon: 'Zap',
-          title: 'Advanced Applied Research',
-          body: 'From optimizing resource-constrained edge AI deployments to developing advanced autonomous systems, we build architectures that push the boundaries of current technology.',
+          title: 'Research & Innovation',
+          body:
+            'We develop innovative solutions in Artificial Intelligence, Robotics, Embedded Systems, and emerging technologies to solve real-world engineering challenges.',
         },
+
         {
           icon: 'Cpu',
-          title: 'Integrated Technical & Legal Mastery',
-          body: 'We uniquely combine hands-on engineering execution with precise patent claim formatting and IP legal frameworks. Your innovations are not just technically superior—they are legally impenetrable.',
+          title: 'Intellectual Property Solutions',
+          body:
+            'Our team provides patent drafting, prior art search, filing support, copyright registration, and design registration to help protect valuable innovations.',
         },
+
         {
           icon: 'Users',
-          title: 'End-to-End Partnership',
-          body: 'Whether drafting complex technical specifications for IP filings or bringing simulated robotic environments into the physical world, we operate as a dedicated extension of your R&D team.',
+          title: 'Technology Partnership',
+          body:
+            'From research guidance and product development to technical consulting and professional training, we work closely with clients throughout their innovation journey.',
         },
       ],
     },
     vision: {
       heading: 'Vision',
-      body: 'To act as the definitive catalyst for global innovation—empowering technologists to build intelligent systems and secure their proprietary assets in an increasingly competitive technological era.',
+      body:
+        'To empower innovators, researchers, startups, and institutions by delivering technology solutions that create lasting impact and sustainable growth.',
     },
+
     mission: {
       heading: 'Mission',
-      body: 'To bridge the critical gap between conceptual research and commercial reality by delivering world-class engineering in AI and Robotics, paired with ironclad intellectual property services.',
+      body:
+        'To bridge research, engineering, and intellectual property through practical innovation, enabling ideas to become successful products, protected assets, and meaningful solutions.',
     },
   },
 
@@ -200,11 +253,14 @@ const SITE_CONTENT = {
       description:
         'Enroll your team, students, or institution in our AI, ML, or Robotics training programmes. We offer flexible formats including full-day intensives, multi-week cohorts, and corporate customised sessions.',
       serviceOptions: [
-        'AI Fundamentals Workshop',
-        'Machine Learning Bootcamp',
-        'Robotics Systems Workshop',
-        'IP Strategy for Researchers',
-        'Custom Corporate Training',
+        'Patent & Intellectual Property Services',
+        'Artificial Intelligence & Machine Learning',
+        'Robotics Research & Development',
+        'Research & Academic Consultancy',
+        'Professional Training & Workshops',
+        'Startup & Technology Consulting',
+        'Web & Mobile Application Development',
+        'Other',
       ],
       fields: {
         name: 'Full Name',
@@ -532,6 +588,8 @@ function Services() {
             />
           ))}
         </div>
+       
+        <PatentProcess />
       </div>
     </section>
   );
