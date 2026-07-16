@@ -1,8 +1,5 @@
 import { useEffect } from "react";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 import Navbar from "./components/layout/Navbar";
 import Hero from "./components/sections/Hero";
 import Services from "./components/sections/Services";
@@ -15,17 +12,6 @@ import Footer from "./components/layout/Footer";
 import WhatsAppButton from "./components/layout/WhatsAppButton";
 
 export default function App() {
-
-  useEffect(() => {
-
-    AOS.init({
-      duration: 800,
-      easing: "ease-out",
-      once: true,
-      offset: 60,
-    });
-
-  }, []);
 
   return (
 
