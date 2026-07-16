@@ -1,7 +1,6 @@
 import iprImg from "../assets/images/ipr.png";
-import aiImg from "../assets/images/robot.png";
-import robotImg from "../assets/images/aiml.png";
-import consultingImg from "../assets/images/innovation.jpg";
+import aiImg from "../assets/images/aiml.png";
+import robotImg from "../assets/images/robot.png";
 import trainingImg from "../assets/images/prof.png";
 
 export const  SITE_CONTENT = {
@@ -9,7 +8,7 @@ export const  SITE_CONTENT = {
         name: 'Neuzura Technologies',
         tagline: 'Innovating Through Research. Protecting Ideas. Building the Future.',
         subheadline:
-            'We bridge the gap between advanced engineering and strategic intellectual property protection — delivering AI, Robotics, and IP solutions that transform research into lasting competitive advantage.',
+            'We help innovators, researchers, startups, businesses, educational institutions, and organizations transform ideas into intelligent technology, protected intellectual property, and impactful real-world solutions.',
         ctaPrimary: 'Our Services',
         ctaSecondary: 'Get in Touch',
         bookConsultation: 'Book Consultation',
@@ -27,45 +26,68 @@ export const  SITE_CONTENT = {
     },
 
     services: {
-        badge: "Core Services",
+        badge: "Our Services",
 
-        heading: "Our Expertise & Solutions",
+        heading: "Technology, Innovation & Intellectual Property Solutions",
 
         subheading:
-            "Comprehensive solutions tailored to your research and innovation needs.",
+            "Helping startups, researchers, businesses, educational institutions, and innovators transform ideas into intelligent products, protected innovations, and scalable technology solutions.",
 
         items: [
             {
-                title: 'Intellectual Property Strategy',
-                image: iprImg, // Fixed: Now correctly uses the imported variable
-                description: 'End-to-end patent drafting, filing, and publication support.',
-                detailedNote: 'We craft robust IP portfolios that safeguard your innovations and maximize commercial value in competitive markets.'
-            },
-            {
-                title: 'AI & Machine Learning Solutions',
-                image: robotImg,
-                description: 'Custom algorithm design, intelligent data pipelines, and production-ready ML models tailored to your domain.',
-                detailedNote: 'From proof-of-concept to enterprise deployment.'
-            },
-            {
-                title: 'Robotics Research & Development',
+                title: "Software Development",
                 image: aiImg,
-                description: 'Full-cycle robotics engineering — from conceptual system design and multi-physics simulation.',
-                detailedNote: '...to physical prototyping and field validation for industrial and research applications.'
+                description:
+                    "Custom web, mobile, desktop, cloud, and enterprise software tailored to business, research, and industrial requirements.",
+                detailedNote:
+                    "React, Next.js, Vite, TypeScript, Node.js, Python, Java, .NET, REST APIs, Microservices, Cloud Deployment, Docker, PostgreSQL, MongoDB, Firebase, and scalable system architecture."
             },
+
             {
-                title: 'Product Innovation Consulting',
-                image: consultingImg,
-                description: 'We translate cutting-edge research into commercially scalable products.',
-                detailedNote: 'Our consultants guide technical founders and enterprises from technology readiness to market launch.'
+                title: "Artificial Intelligence Solutions",
+                image: aiImg,
+                description:
+                    "Intelligent AI systems, automation, computer vision, natural language processing, and data-driven decision platforms.",
+                detailedNote:
+                    "Generative AI, Large Language Models (LLMs), AI Agents, Retrieval-Augmented Generation (RAG), Computer Vision, Deep Learning, Reinforcement Learning, MLOps, Vector Databases, LangChain, LangGraph, MCP, and AI Workflow Automation."
             },
+
             {
-                title: 'Professional Skill Development',
+                title: "Robotics Development",
+                image: robotImg,
+                description:
+                    "End-to-end robotics research, intelligent automation, embedded systems, autonomous platforms, and smart robotic solutions.",
+                detailedNote:
+                    "Embodied AI, Vision-Language-Action (VLA) Models, World Models, Representation Learning, ROS 2, SLAM, Motion Planning, Autonomous Navigation, Edge AI, Digital Twins, Sensor Fusion, Embedded AI, and Human-Robot Interaction."
+            },
+
+            {
+                title: "Intellectual Property Services",
+                image: iprImg,
+                description:
+                    "Patent drafting, filing support, prior art research, copyright, design registration, and innovation documentation.",
+                detailedNote:
+                    "Patentability Assessment, Prior Art Analysis, Patent Drafting, FER Response Support, Technology Landscaping, Design Registration, Copyright Registration, Innovation Strategy, and IP Portfolio Development."
+            },
+
+            {
+                title: "Research & Innovation Consulting",
+                image: aiImg,
+                description:
+                    "Technical consulting that transforms research ideas into commercially viable technologies, products, and intellectual property.",
+                detailedNote:
+                    "Research Strategy, Product Innovation, Technology Roadmapping, Proof of Concept (PoC), MVP Development, Academic Collaboration, Startup Consulting, Technology Commercialization, and R&D Management."
+            },
+
+            {
+                title: "Training, Workshops & Internships",
                 image: trainingImg,
-                description: 'Immersive workshops in AI, Machine Learning, and Robotics for students, researchers, and enterprise teams.',
-                detailedNote: 'Structured curricula designed for real-world application.'
+                description:
+                    "Industry-oriented learning programs designed to develop practical technical skills and innovation capabilities.",
+                detailedNote:
+                    "Artificial Intelligence, Machine Learning, Robotics, Embedded Systems, Software Development, Patent Writing, Research Methodology, Product Development, Industry Workshops, Faculty Development Programs, and Corporate Technical Training."
             }
-        ],
+        ]
     },
 
     patentProcess: {
@@ -135,89 +157,92 @@ export const  SITE_CONTENT = {
             "Data Analytics"
         ],
     },
-
-    insights: {
-        badge: "Knowledge Hub",
-
-        heading: "Latest Insights",
-
-        subheading:
-            "Research articles, technology trends, intellectual property guidance, AI, robotics, and innovation insights from Neuzura Technologies.",
-
-        viewAll: "View All Articles",
-    },
     
     achievements: {
-        heading: 'Milestones & Achievements',
-        subheading: 'A record of impact built through rigorous research and strategic execution.',
+        heading: "Milestones & Achievements",
+
+        subheading:
+            "Delivering innovation, intellectual property, and technology solutions through research-driven expertise.",
+
         metrics: [
             {
-                icon: 'Award',
-                value: '150+',
-                label: 'Patent Publications',
-                description: 'Patent drafting, filing, and publication support delivered for researchers, institutions, and innovators.',
-            },
-            {
-                icon: 'BookOpen',
-                value: '10+',
-                label: 'Copyright Registrations',
-                description: 'Creative and technical works successfully protected through copyright registration.',
-            },
-            {
-                icon: 'Stamp',
-                value: '20+',
-                label: 'Registered Designs',
-                description: 'Industrial design registrations secured to protect innovative product designs.',
-            },
-            {
-                icon: 'Cpu',
-                value: '10+',
-                label: 'Technical Projects',
+                icon: "Award",
+                value: "150+",
+                label: "Patent Publications",
                 description:
-                    'Successfully delivered AI, Robotics, IoT, Web Applications, Mobile Applications, and Embedded Solutions across academic and industry projects.',
+                    "Supported researchers, startups, universities, and innovators with patent drafting, filing, and publication services.",
+            },
+            {
+                icon: "BookOpen",
+                value: "10+",
+                label: "Copyright Registrations",
+                description:
+                    "Successfully assisted clients in protecting software, research, and creative works through copyright registration.",
+            },
+            {
+                icon: "Stamp",
+                value: "20+",
+                label: "Design Registrations",
+                description:
+                    "Provided design registration support to safeguard innovative product designs and industrial aesthetics.",
+            },
+            {
+                icon: "Cpu",
+                value: "10+",
+                label: "Technology Solutions Delivered",
+                description:
+                    "Delivered solutions across Artificial Intelligence, Robotics, IoT, Software Development, Mobile Applications, Web Applications, and Embedded Systems.",
             },
         ],
     },
 
     about: {
-        heading: 'About Neuzura Technologies',
+        heading: "About Neuzura Technologies",
+
         subheading:
-            'Neuzura Technologies is an innovation-driven company specializing in Artificial Intelligence, Robotics, Intellectual Property, and Technology Consulting. We help researchers, educational institutions, startups, MSMEs, and businesses transform innovative ideas into protected intellectual property and practical technology solutions.',
+            "Neuzura Technologies is a technology and innovation company delivering Software Development, Artificial Intelligence, Robotics, Intellectual Property Services, Research Consulting, and Professional Training. We help individuals and organizations transform innovative ideas into practical technology solutions and protected intellectual property.",
+
         approach: {
-            heading: 'What We Do',
+            heading: "What We Do",
+
             points: [
                 {
-                    icon: 'Zap',
-                    title: 'Research & Innovation',
+                    icon: "Zap",
+                    title: "Technology Development",
                     body:
-                        'We develop innovative solutions in Artificial Intelligence, Robotics, Embedded Systems, and emerging technologies to solve real-world engineering challenges.',
+                        "We design and develop software, artificial intelligence, robotics, embedded systems, automation, and intelligent digital solutions for real-world applications.",
                 },
 
                 {
-                    icon: 'Cpu',
-                    title: 'Intellectual Property Solutions',
+                    icon: "Cpu",
+                    title: "Intellectual Property Services",
                     body:
-                        'Our team provides patent drafting, prior art search, filing support, copyright registration, and design registration to help protect valuable innovations.',
+                        "We support innovators through patent drafting, patent filing, prior art searches, design registration, copyright registration, and innovation documentation.",
                 },
 
                 {
-                    icon: 'Users',
-                    title: 'Technology Partnership',
+                    icon: "Users",
+                    title: "Research & Innovation Consulting",
                     body:
-                        'From research guidance and product development to technical consulting and professional training, we work closely with clients throughout their innovation journey.',
+                        "We collaborate with researchers, startups, educational institutions, MSMEs, and organizations to transform innovative ideas into practical products and scalable solutions.",
                 },
             ],
         },
+
+        
+
         vision: {
-            heading: 'Vision',
+            heading: "Vision",
+
             body:
-                'To empower innovators, researchers, startups, and institutions by delivering technology solutions that create lasting impact and sustainable growth.',
+                "To become a globally trusted technology and innovation company that empowers individuals, organizations, researchers, and businesses through intelligent technology, engineering excellence, and protected innovation.",
         },
 
         mission: {
-            heading: 'Mission',
+            heading: "Mission",
+
             body:
-                'To bridge research, engineering, and intellectual property through practical innovation, enabling ideas to become successful products, protected assets, and meaningful solutions.',
+                "To bridge research, technology, and intellectual property by delivering practical software, AI, robotics, consulting, and innovation services that create long-term value for society.",
         },
     },
 

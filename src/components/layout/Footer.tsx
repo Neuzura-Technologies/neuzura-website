@@ -205,7 +205,7 @@ export default function Footer() {
                     </p>
 
                     <p className="text-slate-600 text-sm">
-                        Built with ❤️ by Neuzura Technologies
+                        Research • Innovation • Technology • Intellectual Property
                     </p>
 
                 </div>

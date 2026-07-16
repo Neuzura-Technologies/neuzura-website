@@ -1,22 +1,22 @@
 import { useState } from "react";
 import {
-    Mail,
-    MapPin,
     CheckCircle2,
-    Github,
-    Linkedin,
+    Users,
     Building2,
+    GraduationCap,
 } from "lucide-react";
 
 import ContactForm from "../forms/ContactForm";
 import { SITE_CONTENT } from "../../data/siteContent";
 
 function Contact() {
-    const { contact, footer } = SITE_CONTENT;
 
-    const [activeTab, setActiveTab] = useState<
-        "consultation" | "workshop"
-    >("consultation");
+    const { contact } = SITE_CONTENT;
+
+    const [activeTab, setActiveTab] =
+        useState<"consultation" | "workshop">(
+            "consultation"
+        );
 
     const activeConfig =
         activeTab === "consultation"
@@ -24,10 +24,12 @@ function Contact() {
             : contact.workshop;
 
     return (
+
         <section
             id="contact"
             className="py-24 bg-gradient-to-br from-blue-50 via-white to-blue-50"
         >
+
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 {/* Header */}
@@ -50,130 +52,102 @@ function Contact() {
 
                 <div className="grid lg:grid-cols-5 gap-10">
 
-                    {/* Left */}
+                    {/* LEFT SIDE */}
 
                     <div className="lg:col-span-2 space-y-6">
 
+                        {/* WHO WE WORK WITH */}
+
                         <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-7">
 
-                            <h3 className="text-xl font-bold mb-6">
-                                Contact Information
-                            </h3>
+                            <div className="flex items-center gap-3 mb-6">
 
-                            <div className="space-y-5">
+                                <Users className="text-blue-600" />
 
-                                <a
-                                    href={`mailto:${footer.email}`}
-                                    className="flex gap-4 hover:text-blue-600 transition"
-                                >
-                                    <Mail className="text-blue-600 mt-1" size={20} />
-                                    <div>
-                                        <p className="text-xs uppercase text-slate-400">
-                                            Email
-                                        </p>
-                                        <p>{footer.email}</p>
-                                    </div>
-                                </a>
-
-                                <a
-                                    href={`tel:${footer.phone.replace(/\s+/g, "")}`}
-                                    className="flex gap-4 hover:text-blue-600 transition"
-                                >
-                                    <CheckCircle2
-                                        className="text-blue-600 mt-1"
-                                        size={20}
-                                    />
-                                    <div>
-                                        <p className="text-xs uppercase text-slate-400">
-                                            Phone
-                                        </p>
-                                        <p>{footer.phone}</p>
-                                    </div>
-                                </a>
-
-                                <a
-                                    href={footer.social.maps}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="flex gap-4 hover:text-blue-600 transition"
-                                >
-                                    <MapPin
-                                        className="text-blue-600 mt-1"
-                                        size={20}
-                                    />
-                                    <div>
-                                        <p className="text-xs uppercase text-slate-400">
-                                            Location
-                                        </p>
-                                        <p>{footer.location}</p>
-                                    </div>
-                                </a>
+                                <h3 className="text-xl font-bold">
+                                    Who We Work With
+                                </h3>
 
                             </div>
 
-                        </div>
+                            <div className="grid grid-cols-2 gap-3">
 
-                        <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-7">
-
-                            <h3 className="text-xl font-bold mb-5">
-                                Connect With Us
-                            </h3>
-
-                            <div className="flex gap-4">
-
-                                <a
-                                    href={footer.social.github}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="p-3 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white transition"
-                                >
-                                    <Github size={22} />
-                                </a>
-
-                                <a
-                                    href={footer.social.linkedin}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="p-3 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white transition"
-                                >
-                                    <Linkedin size={22} />
-                                </a>
-
-                                <a
-                                    href={footer.social.crunchbase}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="p-3 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white transition"
-                                >
-                                    <Building2 size={22} />
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                        <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-7">
-
-                            <h3 className="text-xl font-bold mb-5">
-                                Services
-                            </h3>
-
-                            <div className="space-y-3">
-
-                                {SITE_CONTENT.services.items.map((service) => (
+                                {[
+                                    "Researchers",
+                                    "Students",
+                                    "Educational Institutions",
+                                    "Startups",
+                                    "MSMEs",
+                                    "Businesses",
+                                    "Government Organizations",
+                                    "Innovators",
+                                ].map((item) => (
 
                                     <div
-                                        key={service.title}
-                                        className="flex items-center gap-3"
+                                        key={item}
+                                        className="flex items-center gap-2 text-sm"
                                     >
+
                                         <CheckCircle2
-                                            className="text-blue-600"
                                             size={16}
+                                            className="text-blue-600"
                                         />
 
-                                        <span className="text-sm">
-                                            {service.title}
-                                        </span>
+                                        <span>{item}</span>
+
+                                    </div>
+
+                                ))}
+
+                            </div>
+
+                        </div>
+                        {/* DEPARTMENTS */}
+
+                        <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-7">
+
+                            <div className="flex items-center gap-3 mb-6">
+
+                                <GraduationCap className="text-blue-600" />
+
+                                <h3 className="text-xl font-bold">
+                                    Departments We Support
+                                </h3>
+
+                            </div>
+
+                            <p className="text-sm text-slate-600 mb-5">
+                                We work across multidisciplinary domains—not limited to engineering.
+                            </p>
+
+                            <div className="grid grid-cols-2 gap-3">
+
+                                {[
+                                    "Engineering",
+                                    "Medical & Healthcare",
+                                    "Commerce",
+                                    "Management",
+                                    "Law",
+                                    "Education",
+                                    "Arts & Science",
+                                    "Agriculture",
+                                    "Pharmacy",
+                                    "Allied Health Sciences",
+                                    "Research",
+                                    "Interdisciplinary Projects",
+                                ].map((department) => (
+
+                                    <div
+                                        key={department}
+                                        className="flex items-center gap-2 text-sm"
+                                    >
+
+                                        <Building2
+                                            size={16}
+                                            className="text-blue-600"
+                                        />
+
+                                        <span>{department}</span>
 
                                     </div>
 
@@ -183,9 +157,10 @@ function Contact() {
 
                         </div>
 
+                
                     </div>
 
-                    {/* Right */}
+                    {/* RIGHT SIDE */}
 
                     <div className="lg:col-span-3 bg-white rounded-2xl shadow-sm border border-slate-200">
 
@@ -230,13 +205,15 @@ function Contact() {
 
                         </div>
 
-                    </div>
-
+                    </div>               
                 </div>
 
             </div>
+
         </section>
+
     );
+
 }
 
 export default Contact;
