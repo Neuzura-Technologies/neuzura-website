@@ -24,18 +24,6 @@ export default function ProjectModal({
 
                 <div className="relative">
 
-                    {project.coverImage ? (
-                        <img
-                            src={project.coverImage}
-                            alt={project.title}
-                            className="w-full h-80 object-cover"
-                        />
-                    ) : (
-                        <div className="h-80 bg-gradient-to-r from-blue-700 to-slate-900 flex items-center justify-center text-white text-3xl font-bold">
-                            {project.title}
-                        </div>
-                    )}
-
                     <button
                         onClick={onClose}
                         className="absolute top-5 right-5 bg-white w-11 h-11 rounded-full shadow hover:bg-slate-100 text-xl"
@@ -134,6 +122,42 @@ export default function ProjectModal({
 
                         </div>
 
+                    )}
+
+                    {(project.github || project.linkedin) && (
+                        <div className="mt-10 border-t border-slate-200 pt-8">
+
+                            <h3 className="text-xl font-bold mb-5">
+                                Explore this Project
+                            </h3>
+
+                            <div className="flex flex-wrap gap-4">
+
+                                {project.github && (
+                                    <a
+                                        href={project.github}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="inline-flex items-center px-5 py-3 rounded-xl bg-slate-900 text-white hover:bg-slate-800 transition"
+                                    >
+                                        GitHub Repository
+                                    </a>
+                                )}
+
+                                {project.linkedin && (
+                                    <a
+                                        href={project.linkedin}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="inline-flex items-center px-5 py-3 rounded-xl bg-blue-600 text-white hover:bg-blue-700 transition"
+                                    >
+                                        LinkedIn Project Post
+                                    </a>
+                                )}
+
+                            </div>
+
+                        </div>
                     )}
 
                 </div>

@@ -32,7 +32,7 @@ export default function ProjectsPage() {
                         <p className="mt-5 max-w-3xl text-lg text-slate-600">
                             Explore our research, software, robotics, artificial intelligence,
                             embedded systems, mobile applications, web applications,
-                            intellectual property, and innovation projects.
+                             and innovation projects.
                         </p>
 
                     </div>

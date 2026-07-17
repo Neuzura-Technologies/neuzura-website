@@ -36,12 +36,8 @@ export interface Project {
 
     tags: string[];
 
-    gallery: string[];
-    videos: string[];
-
     github?: string;
-    demo?: string;
-    documentation?: string;
+    linkedin?: string;
 
     year: number;
 }

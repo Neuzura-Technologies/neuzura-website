@@ -15,13 +15,10 @@ export const PROJECTS: Project[] = [
         featured: true,
 
         thumbnail: "/projects/logo.png",
-        coverImage: "/projects/logo.png",
 
-        shortDescription:
-            "An AI-powered enterprise operating system designed to unify customer management, knowledge, intelligent workflows, automation, and business operations into a single platform.",
+        shortDescription: "An AI-powered enterprise operating system designed to unify customer management, knowledge, intelligent workflows, automation, and business operations into a single platform.",
 
-        fullDescription:
-            "Neuzura Operating System (NOS) is the flagship enterprise platform being developed by Neuzura Technologies. It combines CRM, ERP, knowledge management, artificial intelligence, workflow automation, analytics, and personalized client guidance into a unified operating system for organizations.",
+        fullDescription: "Neuzura Operating System (NOS) is the flagship enterprise platform being developed by Neuzura Technologies. It combines CRM, ERP, knowledge management, artificial intelligence, workflow automation, analytics, and personalized client guidance into a unified operating system for organizations.",
 
         technologies: [
             "React",
@@ -40,17 +37,12 @@ export const PROJECTS: Project[] = [
             "Automation"
         ],
 
-        gallery: [],
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
 
-        videos: [],
-
-        github: "",
-
-        demo: "",
-
-        documentation: "",
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
 
         year: 2026,
+       
     },
 
     {
@@ -67,8 +59,7 @@ export const PROJECTS: Project[] = [
 
         featured: true,
 
-        thumbnail: "/projects/logo.png",
-        coverImage: "/projects/logo.png",
+        thumbnail: "/projects/SAHI.png",
 
         shortDescription:
             "Developed an industrial-scale AI vision system for high-resolution pest monitoring using SAHI and YOLO-World with open-vocabulary zero-shot learning.",
@@ -94,27 +85,21 @@ export const PROJECTS: Project[] = [
             "Research"
         ],
 
-        gallery: [],
+       github: "https://github.com/Neuzura-Technologies/neuzura-website",
 
-        videos: [],
-
-        github: "",
-
-        demo: "",
-
-        documentation: "",
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
 
         year: 2025,
     },
 
     {
-        id: "hospital-assistant-robot",
+        id: "autonomous-mobile-manipulator",
 
-        slug: "autonomous-hospital-assistant-robot",
+        slug: "autonomous-pick-and-place-mobile-manipulator",
 
-        title: "Autonomous Hospital Assistant Robot Simulation",
+        title: "Autonomous Pick-and-Place Mobile Manipulator",
 
-        subtitle: "ROS-Based Intelligent Healthcare Robotics",
+        subtitle: "ROS-Based Mobile Manipulation with Speech Recognition",
 
         category: "Robotics",
 
@@ -122,39 +107,37 @@ export const PROJECTS: Project[] = [
 
         featured: true,
 
-        thumbnail: "/projects/logo.png",
-        coverImage: "/projects/logo.png",
+        thumbnail: "/projects/tiago_robot.jpg",
 
         shortDescription:
-            "Designed and simulated an autonomous hospital service robot capable of intelligent navigation and healthcare assistance using ROS and Gazebo.",
+            "Developed an autonomous mobile manipulation robot capable of speech-controlled object retrieval, intelligent navigation, object detection, and autonomous pick-and-place operations using ROS and Gazebo.",
 
         fullDescription:
-            "Developed an autonomous hospital assistant robot simulation using the TIAGo robotic platform within the Robot Operating System (ROS). The project focused on autonomous navigation, obstacle avoidance, intelligent mobility, and healthcare service assistance inside simulated hospital environments.",
+            "Designed and simulated an autonomous mobile manipulator using the Robot Operating System (ROS) and Gazebo simulation environment. The robot combines autonomous navigation, speech recognition, robotic manipulation, and intelligent object handling to execute voice-controlled pick-and-place tasks in structured indoor environments. The project integrates mobile base navigation, manipulator motion planning, object localization, grasp execution, obstacle avoidance, and human–robot interaction, demonstrating a complete autonomous robotic workflow suitable for logistics, smart manufacturing, healthcare, research, and service robotics applications.",
 
         technologies: [
             "ROS",
             "Gazebo",
-            "TIAGo Robot",
-            "Robotics",
-            "Autonomous Navigation"
+            "MoveIt",
+            "Speech Recognition",
+            "Mobile Manipulation",
+            "Autonomous Navigation",
+            "Python",
+            "OpenCV"
         ],
 
         tags: [
             "Robotics",
-            "Healthcare",
+            "Mobile Manipulation",
+            "Speech Recognition",
+            "Autonomous Navigation",
             "ROS",
-            "Autonomous Systems"
+            "Human-Robot Interaction"
         ],
 
-        gallery: [],
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
 
-        videos: [],
-
-        github: "",
-
-        demo: "",
-
-        documentation: "",
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
 
         year: 2024,
     },
@@ -175,7 +158,6 @@ export const PROJECTS: Project[] = [
         featured: false,
 
         thumbnail: "/projects/logo.png",
-        coverImage: "/projects/logo.png",
 
         shortDescription:
             "An intelligent waste classification system developed using deep learning and comparative machine learning models for automated waste segregation.",
@@ -200,59 +182,28 @@ export const PROJECTS: Project[] = [
             "Sustainability"
         ],
 
-        gallery: [],
-        videos: [],
-        github: "",
-        demo: "",
-        documentation: "",
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
         year: 2025,
     },
 
-    {
-        id: "medical-prescription-analysis",
-
-        slug: "ai-medical-prescription-analysis",
-
-        title: "AI Medical Prescription Analysis System",
-
-        subtitle: "OCR • Healthcare AI • Medical Analytics",
-
-        category: "Artificial Intelligence",
-
-        status: "Completed",
-
+    { 
+        id: "enterprise-management", 
+        slug: "enterprise-management-portal", 
+        title: "Enterprise Management Portal", 
+        subtitle: "Admin • Manager • Member Dashboard", 
+        category: "Enterprise Software", 
+        status: "Completed", 
         featured: false,
-
-        thumbnail: "/projects/logo.png",
-        coverImage: "/projects/logo.png",
-
-        shortDescription:
-            "An AI-powered healthcare system for analyzing handwritten medical prescriptions using optical character recognition and machine learning.",
-
-        fullDescription:
-            "Developed an intelligent healthcare solution capable of processing handwritten medical prescriptions through image preprocessing, OCR, and AI-based analysis. The project focused on improving prescription readability, digital processing, and medical information extraction for healthcare applications.",
-
-        technologies: [
-            "Python",
-            "OCR",
-            "Deep Learning",
-            "OpenCV",
-            "Artificial Intelligence"
-        ],
-
-        tags: [
-            "Healthcare",
-            "OCR",
-            "Medical AI",
-            "Computer Vision"
-        ],
-
-        gallery: [],
-        videos: [],
-        github: "",
-        demo: "",
-        documentation: "",
-        year: 2024,
+        thumbnail: "/projects/management.png", 
+        shortDescription: "Designed and developed a complete enterprise web platform with role-based access control and management dashboards.", 
+        fullDescription: "Built a complete enterprise web application from scratch, including UI/UX design, authentication, and separate Admin, Manager, and Member dashboards. The system demonstrates scalable enterprise software architecture and user management.", 
+        technologies: [ "JavaScript", "HTML", "CSS", "Firebase" ], 
+        tags: [ "Enterprise", "Dashboard", "Web Development" ], 
+        github: "https://github.com/Neuzura-Technologies/neuzura-website", 
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website", 
+        year: 2023, 
     },
 
     {
@@ -270,8 +221,7 @@ export const PROJECTS: Project[] = [
 
         featured: false,
 
-        thumbnail: "/projects/logo.png",
-        coverImage: "/projects/logo.png",
+        thumbnail: "/projects/openX.jpeg",
 
         shortDescription:
             "Developed a real-time robotic arm control system using natural hand gestures captured through Ultraleap depth sensing technology.",
@@ -293,11 +243,9 @@ export const PROJECTS: Project[] = [
             "Human Robot Interaction"
         ],
 
-        gallery: [],
-        videos: [],
-        github: "",
-        demo: "",
-        documentation: "",
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
         year: 2024,
     },
 
@@ -317,7 +265,6 @@ export const PROJECTS: Project[] = [
         featured: false,
 
         thumbnail: "/projects/logo.png",
-        coverImage: "/projects/logo.png",
 
         shortDescription:
             "Developed an eye-controlled communication interface to assist paralyzed individuals using gaze-based interaction.",
@@ -339,11 +286,9 @@ export const PROJECTS: Project[] = [
             "Assistive Technology"
         ],
 
-        gallery: [],
-        videos: [],
-        github: "",
-        demo: "",
-        documentation: "",
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
         year: 2024,
     },
 
@@ -362,8 +307,7 @@ export const PROJECTS: Project[] = [
 
         featured: false,
 
-        thumbnail: "/projects/logo.png",
-        coverImage: "/projects/logo.png",
+        thumbnail: "/projects/vessel.jpg",
 
         shortDescription:
             "An IoT-enabled maritime safety platform that alerts fishermen before crossing international sea boundaries.",
@@ -386,11 +330,9 @@ export const PROJECTS: Project[] = [
             "GPS"
         ],
 
-        gallery: [],
-        videos: [],
-        github: "",
-        demo: "",
-        documentation: "",
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
         year: 2024,
     },
 
@@ -409,11 +351,10 @@ export const PROJECTS: Project[] = [
 
         featured: false,
 
-        thumbnail: "/projects/logo.png",
-        coverImage: "/projects/logo.png",
+        thumbnail: "/projects/Thamizh.png",
 
         shortDescription:
-            "Developed a Tamil language mobile application presented during Niral Thiruvizha and recognized with a ₹10,000 government award.",
+            "Developed a Tamil language mobile application presented during Niral Thiruvizha and recognized with a Tamil Nadu government award.",
 
         fullDescription:
             "Designed and developed the Tamil Valam mobile application as part of an academic innovation initiative showcased during Niral Thiruvizha. The application received recognition and a ₹10,000 award from the Government of Tamil Nadu.",
@@ -430,56 +371,56 @@ export const PROJECTS: Project[] = [
             "Award"
         ],
 
-        gallery: [],
-        videos: [],
-        github: "",
-        demo: "",
-        documentation: "",
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
+
         year: 2023,
     },
 
     {
-        id: "enterprise-management",
+        id: "low-light-object-detection",
 
-        slug: "enterprise-management-portal",
+        slug: "low-light-object-detection",
 
-        title: "Enterprise Management Portal",
+        title: "Low-Light Object Detection System",
 
-        subtitle: "Admin • Manager • Member Dashboard",
+        subtitle: "Computer Vision • Deep Learning • Low-Light AI",
 
-        category: "Enterprise Software",
+        category: "Artificial Intelligence",
 
         status: "Completed",
 
         featured: false,
 
-        thumbnail: "/projects/logo.png",
-        coverImage: "/projects/logo.png",
+        thumbnail: "/projects/darken.png",
 
         shortDescription:
-            "Designed and developed a complete enterprise web platform with role-based access control and management dashboards.",
+            "Developed a deep learning–based object detection system capable of recognizing real-world objects in challenging low-light environments using benchmark nighttime datasets.",
 
         fullDescription:
-            "Built a complete enterprise web application from scratch, including UI/UX design, authentication, and separate Admin, Manager, and Member dashboards. The system demonstrates scalable enterprise software architecture and user management.",
+            "Designed and implemented an intelligent low-light object detection system using deep learning and computer vision techniques. The project focused on improving object recognition under poor illumination by training and evaluating models on benchmark low-light datasets, including ExDark and ARID. The system successfully detected objects such as bicycles, pedestrians, vehicles, and other everyday objects in challenging nighttime environments. Image preprocessing, model inference, and performance evaluation were integrated to enhance detection robustness for applications in intelligent surveillance, autonomous robotics, smart transportation, and outdoor monitoring.",
 
         technologies: [
-            "JavaScript",
-            "HTML",
-            "CSS",
-            "Firebase"
+            "Python",
+            "OpenCV",
+            "Deep Learning",
+            "Computer Vision"
         ],
 
         tags: [
-            "Enterprise",
-            "Dashboard",
-            "Web Development"
+            "Artificial Intelligence",
+            "Computer Vision",
+            "Object Detection",
+            "Low-Light Vision",
+            "ExDark",
+            "ARID"
         ],
 
-        gallery: [],
-        videos: [],
-        github: "",
-        demo: "",
-        documentation: "",
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
+
         year: 2023,
     },
 
@@ -498,8 +439,7 @@ export const PROJECTS: Project[] = [
 
         featured: false,
 
-        thumbnail: "/projects/logo.png",
-        coverImage: "/projects/logo.png",
+        thumbnail: "/projects/power.png",
 
         shortDescription:
             "Developed interactive business intelligence dashboards with predictive analytics for enterprise decision-making.",
@@ -520,11 +460,10 @@ export const PROJECTS: Project[] = [
             "Business Intelligence"
         ],
 
-        gallery: [],
-        videos: [],
-        github: "",
-        demo: "",
-        documentation: "",
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
+        
         year: 2024,
     },
 
@@ -544,7 +483,6 @@ export const PROJECTS: Project[] = [
         featured: false,
 
         thumbnail: "/projects/logo.png",
-        coverImage: "/projects/logo.png",
 
         shortDescription:
             "Designed a gesture recognition system for intuitive drone navigation using computer vision.",
@@ -565,11 +503,10 @@ export const PROJECTS: Project[] = [
             "Computer Vision"
         ],
 
-        gallery: [],
-        videos: [],
-        github: "",
-        demo: "",
-        documentation: "",
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
+
         year: 2024,
     },
     

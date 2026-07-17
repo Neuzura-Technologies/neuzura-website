@@ -2,7 +2,8 @@ import iprImg from "../assets/images/ipr.png";
 import aiImg from "../assets/images/aiml.png";
 import robotImg from "../assets/images/robot.png";
 import trainingImg from "../assets/images/prof.png";
-
+import SD from "../assets/images/Soft.png";
+import ARC from "../assets/images/ARC.png"
 export const  SITE_CONTENT = {
     company: {
         name: 'Neuzura Technologies',
@@ -36,7 +37,7 @@ export const  SITE_CONTENT = {
         items: [
             {
                 title: "Software Development",
-                image: aiImg,
+                image: SD,
                 description:
                     "Custom web, mobile, desktop, cloud, and enterprise software tailored to business, research, and industrial requirements.",
                 detailedNote:
@@ -71,12 +72,12 @@ export const  SITE_CONTENT = {
             },
 
             {
-                title: "Research & Innovation Consulting",
-                image: aiImg,
+                title: "Academic Research Collaboration",
+                image: ARC,
                 description:
-                    "Technical consulting that transforms research ideas into commercially viable technologies, products, and intellectual property.",
+                    "Collaborating with universities, faculty members, and student teams to transform research ideas into innovative technologies, functional prototypes, and intellectual property.",
                 detailedNote:
-                    "Research Strategy, Product Innovation, Technology Roadmapping, Proof of Concept (PoC), MVP Development, Academic Collaboration, Startup Consulting, Technology Commercialization, and R&D Management."
+                    "Industry-Academia Collaboration, Sponsored Research Projects, Prototype Development, Research Project Guidance, Technology Validation, Product Innovation, Patent-Oriented Development, Publication Support, and Research & Development (R&D) Management."
             },
 
             {
