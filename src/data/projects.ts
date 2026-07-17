@@ -57,7 +57,7 @@ export const PROJECTS: Project[] = [
 
         status: "Completed",
 
-        featured: true,
+        featured: false,
 
         thumbnail: "/projects/SAHI.png",
 
@@ -219,7 +219,7 @@ export const PROJECTS: Project[] = [
 
         status: "Completed",
 
-        featured: false,
+        featured: true,
 
         thumbnail: "/projects/openX.jpeg",
 
