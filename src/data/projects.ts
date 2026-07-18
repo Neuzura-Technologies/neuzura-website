@@ -46,53 +46,6 @@ export const PROJECTS: Project[] = [
     },
 
     {
-        id: "grain-insect-detection",
-        slug: "open-vocabulary-ai-pest-detection",
-
-        title: "Open-Vocabulary AI Pest Detection for Industrial Grain Storage",
-
-        subtitle: "YOLO-World • SAHI • Zero-Shot Learning",
-
-        category: "Artificial Intelligence",
-
-        status: "Completed",
-
-        featured: true,
-
-        thumbnail: "/projects/SAHI.png",
-
-        shortDescription:
-            "Developed an industrial-scale AI vision system for high-resolution pest monitoring using SAHI and YOLO-World with open-vocabulary zero-shot learning.",
-
-        fullDescription:
-            "Designed an advanced computer vision framework that integrates Slicing-Aided Hyper Inference (SAHI) with YOLO-World to detect insect species from ultra-high-resolution industrial sticky trap images. The system enables open-vocabulary zero-shot detection, preserves fine morphological features through tiled inference, and provides intelligent spatial auditing for industrial grain storage biosecurity.",
-
-        technologies: [
-            "YOLO-World",
-            "SAHI",
-            "Zero-Shot Learning",
-            "Open Vocabulary Detection",
-            "Computer Vision",
-            "Python",
-            "Deep Learning"
-        ],
-
-        tags: [
-            "Computer Vision",
-            "Agriculture",
-            "Industrial AI",
-            "YOLO",
-            "Research"
-        ],
-
-       github: "https://github.com/Neuzura-Technologies/neuzura-website",
-
-        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
-
-        year: 2025,
-    },
-
-    {
         id: "autonomous-mobile-manipulator",
 
         slug: "autonomous-pick-and-place-mobile-manipulator",
