@@ -1,12 +1,13 @@
 import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
+//1
     {
         id: "nos",
         slug: "neuzura-operating-system",
 
         title: "Neuzura Operating System (NOS)",
-        subtitle: "Enterprise AI Platform",
+        subtitle: "Enterprise Multimodal AI Orchestration Layer",
 
         category: "Enterprise Software",
 
@@ -14,27 +15,27 @@ export const PROJECTS: Project[] = [
 
         featured: true,
 
-        thumbnail: "/projects/logo.png",
+        thumbnail: "/projects/nos.png",
 
-        shortDescription: "An AI-powered enterprise operating system designed to unify customer management, knowledge, intelligent workflows, automation, and business operations into a single platform.",
+        shortDescription: "A cognitive enterprise engine engineered to unify cross-functional data schemas, decentralized knowledge assets, autonomous workflow agentic architectures, and predictive operational analytics into a centralized infrastructure.",
 
-        fullDescription: "Neuzura Operating System (NOS) is the flagship enterprise platform being developed by Neuzura Technologies. It combines CRM, ERP, knowledge management, artificial intelligence, workflow automation, analytics, and personalized client guidance into a unified operating system for organizations.",
+        fullDescription: "Neuzura Operating System (NOS) serves as the flagship enterprise cognitive layer engineered by Neuzura Technologies. By synthesizing intelligent CRM architectures, real-time ERP data streams, semantic knowledge retrieval systems, multi-agent task automation, and predictive customer telemetry, NOS acts as an adaptive enterprise operating layer that optimizes organizational workflows and automates high-level strategic decision paths.",
 
         technologies: [
             "React",
             "TypeScript",
             "Artificial Intelligence",
-            "Enterprise Software",
-            "CRM",
-            "ERP"
+            "Enterprise Architecture",
+            "Intelligent CRM Systems",
+            "Distributed ERP Systems"
         ],
 
         tags: [
-            "Enterprise",
-            "AI",
-            "CRM",
-            "ERP",
-            "Automation"
+            "Enterprise Architecture",
+            "Agentic AI",
+            "Cognitive CRM",
+            "Distributed ERP",
+            "Hyper-Automation"
         ],
 
         github: "https://github.com/Neuzura-Technologies/neuzura-website",
@@ -42,56 +43,8 @@ export const PROJECTS: Project[] = [
         linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
 
         year: 2026,
-       
     },
-
-    {
-        id: "grain-insect-detection",
-        slug: "open-vocabulary-ai-pest-detection",
-
-        title: "Open-Vocabulary AI Pest Detection for Industrial Grain Storage",
-
-        subtitle: "YOLO-World • SAHI • Zero-Shot Learning",
-
-        category: "Artificial Intelligence",
-
-        status: "Completed",
-
-        featured: true,
-
-        thumbnail: "/projects/SAHI.png",
-
-        shortDescription:
-            "Developed an industrial-scale AI vision system for high-resolution pest monitoring using SAHI and YOLO-World with open-vocabulary zero-shot learning.",
-
-        fullDescription:
-            "Designed an advanced computer vision framework that integrates Slicing-Aided Hyper Inference (SAHI) with YOLO-World to detect insect species from ultra-high-resolution industrial sticky trap images. The system enables open-vocabulary zero-shot detection, preserves fine morphological features through tiled inference, and provides intelligent spatial auditing for industrial grain storage biosecurity.",
-
-        technologies: [
-            "YOLO-World",
-            "SAHI",
-            "Zero-Shot Learning",
-            "Open Vocabulary Detection",
-            "Computer Vision",
-            "Python",
-            "Deep Learning"
-        ],
-
-        tags: [
-            "Computer Vision",
-            "Agriculture",
-            "Industrial AI",
-            "YOLO",
-            "Research"
-        ],
-
-       github: "https://github.com/Neuzura-Technologies/neuzura-website",
-
-        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
-
-        year: 2025,
-    },
-
+//2
     {
         id: "autonomous-mobile-manipulator",
 
@@ -99,7 +52,7 @@ export const PROJECTS: Project[] = [
 
         title: "Autonomous Pick-and-Place Mobile Manipulator",
 
-        subtitle: "ROS-Based Mobile Manipulation with Speech Recognition",
+        subtitle: "ROS-Driven Kinematic Mobile Manipulation via Semantic Natural Language Interfaces",
 
         category: "Robotics",
 
@@ -110,29 +63,29 @@ export const PROJECTS: Project[] = [
         thumbnail: "/projects/tiago_robot.jpg",
 
         shortDescription:
-            "Developed an autonomous mobile manipulation robot capable of speech-controlled object retrieval, intelligent navigation, object detection, and autonomous pick-and-place operations using ROS and Gazebo.",
+            "Engineered an autonomous mobile manipulation framework capable of intent-driven voice command decoding, simultaneous localization and mapping (SLAM), zero-shot object localization, and closed-loop robotic manipulation using ROS architectures.",
 
         fullDescription:
-            "Designed and simulated an autonomous mobile manipulator using the Robot Operating System (ROS) and Gazebo simulation environment. The robot combines autonomous navigation, speech recognition, robotic manipulation, and intelligent object handling to execute voice-controlled pick-and-place tasks in structured indoor environments. The project integrates mobile base navigation, manipulator motion planning, object localization, grasp execution, obstacle avoidance, and human–robot interaction, demonstrating a complete autonomous robotic workflow suitable for logistics, smart manufacturing, healthcare, research, and service robotics applications.",
+            "Designed and validated an autonomous mobile manipulator utilizing the Robot Operating System (ROS) ecosystem within simulated Gazebo physics. The system architecture integrates spatial SLAM navigation pipelines, automatic speech recognition (ASR) semantic intent decoding, sampling-based manipulator motion planning via MoveIt, visual servoing via OpenCV, and dynamic collision avoidance algorithms. This configuration forms a cohesive robotic system applicable to high-throughput logistics, flexible smart manufacturing cells, clinical environments, and advanced service robotics.",
 
         technologies: [
-            "ROS",
-            "Gazebo",
-            "MoveIt",
-            "Speech Recognition",
-            "Mobile Manipulation",
-            "Autonomous Navigation",
+            "ROS (Robot Operating System)",
+            "Gazebo Physics Simulator",
+            "MoveIt Motion Planning Framework",
+            "Automatic Speech Recognition (ASR)",
+            "Mobile Manipulation Pipelines",
+            "Simultaneous Localization and Mapping (SLAM)",
             "Python",
-            "OpenCV"
+            "OpenCV Architecture"
         ],
 
         tags: [
-            "Robotics",
-            "Mobile Manipulation",
-            "Speech Recognition",
+            "Robotics Engineering",
+            "Kinematic Manipulation",
+            "Natural Language Interfaces",
             "Autonomous Navigation",
-            "ROS",
-            "Human-Robot Interaction"
+            "ROS Ecosystem",
+            "Human-Robot Interaction (HRI)"
         ],
 
         github: "https://github.com/Neuzura-Technologies/neuzura-website",
@@ -141,71 +94,7 @@ export const PROJECTS: Project[] = [
 
         year: 2024,
     },
-
-    {
-        id: "smart-waste-classification",
-
-        slug: "ai-smart-waste-classification",
-
-        title: "AI Smart Waste Classification System",
-
-        subtitle: "VGG16 • Transfer Learning • Comparative Machine Learning",
-
-        category: "Artificial Intelligence",
-
-        status: "Completed",
-
-        featured: false,
-
-        thumbnail: "/projects/logo.png",
-
-        shortDescription:
-            "An intelligent waste classification system developed using deep learning and comparative machine learning models for automated waste segregation.",
-
-        fullDescription:
-            "Developed a smart waste classification system capable of identifying multiple waste categories using transfer learning with VGG16. The project compared multiple hybrid architectures including VGG16 + Softmax, VGG16 + SVM, VGG16 + Random Forest, MobileNet + Softmax, MobileNet + SVM, and MobileNet + Random Forest to identify the most effective model for real-time waste classification.",
-
-        technologies: [
-            "VGG16",
-            "MobileNet",
-            "TensorFlow",
-            "Python",
-            "Softmax",
-            "Random Forest",
-            "SVM"
-        ],
-
-        tags: [
-            "Artificial Intelligence",
-            "Computer Vision",
-            "Deep Learning",
-            "Sustainability"
-        ],
-
-        github: "https://github.com/Neuzura-Technologies/neuzura-website",
-
-        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
-        year: 2025,
-    },
-
-    { 
-        id: "enterprise-management", 
-        slug: "enterprise-management-portal", 
-        title: "Enterprise Management Portal", 
-        subtitle: "Admin • Manager • Member Dashboard", 
-        category: "Enterprise Software", 
-        status: "Completed", 
-        featured: false,
-        thumbnail: "/projects/management.png", 
-        shortDescription: "Designed and developed a complete enterprise web platform with role-based access control and management dashboards.", 
-        fullDescription: "Built a complete enterprise web application from scratch, including UI/UX design, authentication, and separate Admin, Manager, and Member dashboards. The system demonstrates scalable enterprise software architecture and user management.", 
-        technologies: [ "JavaScript", "HTML", "CSS", "Firebase" ], 
-        tags: [ "Enterprise", "Dashboard", "Web Development" ], 
-        github: "https://github.com/Neuzura-Technologies/neuzura-website", 
-        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website", 
-        year: 2023, 
-    },
-
+//3
     {
         id: "robotic-arm-control",
 
@@ -213,34 +102,34 @@ export const PROJECTS: Project[] = [
 
         title: "Real-Time Hand Gesture Controlled Robotic Arm",
 
-        subtitle: "OpenManipulator-X • Ultraleap • Human Robot Interaction",
+        subtitle: "OpenManipulator-X • Ultraleap Depth Sensing • Spatial Human-Robot Interaction",
 
         category: "Robotics",
 
         status: "Completed",
 
-        featured: false,
+        featured: true,
 
         thumbnail: "/projects/openX.jpeg",
 
         shortDescription:
-            "Developed a real-time robotic arm control system using natural hand gestures captured through Ultraleap depth sensing technology.",
+            "Developed a low-latency, contactless robotic control pipeline utilizing spatial hand tracking and high-fidelity depth telemetry for intuitive degree-of-freedom mapping.",
 
         fullDescription:
-            "Built an intuitive human-robot interaction system capable of controlling an OpenManipulator-X robotic arm using natural hand gestures. The system integrates Ultraleap depth sensing with real-time robotic motion control to achieve contactless robotic manipulation.",
+            "Constructed a high-fidelity human-robot interaction (HRI) system enabling fine-grained control of an OpenManipulator-X robotic arm via markerless spatial tracking. The architecture ingests raw depth frames from an Ultraleap sensor, translates skeletal hand tracking data into joint-space trajectories, and transmits real-time kinematic commands to execute fluid, contactless payload manipulation.",
 
         technologies: [
-            "OpenManipulator-X",
-            "Ultraleap",
-            "Robotics",
-            "Computer Vision",
+            "OpenManipulator-X Hardware",
+            "Ultraleap Spatial Tracking SDK",
+            "Kinematic Control",
+            "Computer Vision Pipelines",
             "Python"
         ],
 
         tags: [
-            "Robotics",
-            "Gesture Recognition",
-            "Human Robot Interaction"
+            "Robotics Engineering",
+            "Spatial Teleoperation",
+            "Human-Robot Interaction (HRI)"
         ],
 
         github: "https://github.com/Neuzura-Technologies/neuzura-website",
@@ -248,7 +137,7 @@ export const PROJECTS: Project[] = [
         linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
         year: 2024,
     },
-
+//4
     {
         id: "eye-controlled-display",
 
@@ -256,7 +145,7 @@ export const PROJECTS: Project[] = [
 
         title: "Eye-Controlled Assistive Display for Paralyzed Individuals",
 
-        subtitle: "Assistive Technology • Human Computer Interaction",
+        subtitle: "Computer Vision • Gaze Estimation Telemetry • Assistive Bio-Interfaces",
 
         category: "Healthcare",
 
@@ -264,78 +153,89 @@ export const PROJECTS: Project[] = [
 
         featured: false,
 
-        thumbnail: "/projects/logo.png",
+        thumbnail: "/projects/eyes.jpeg",
 
         shortDescription:
-            "Developed an eye-controlled communication interface to assist paralyzed individuals using gaze-based interaction.",
+            "Engineered a computer vision–based assistive interface using facial landmark extraction and gaze vector tracking to facilitate hands-free human-computer interaction.",
 
         fullDescription:
-            "Designed an assistive technology prototype that enables individuals with severe physical disabilities to communicate and interact with digital systems using eye movements. The project focuses on accessibility, independence, and human-centered healthcare technology.",
+            "Designed and implemented a real-time assistive display interface engineered for users with severe motor impairments. The software system processes high-resolution video streams to execute facial alignment, extraction of localized eye regions, continuous gaze vector estimation, and intentional blink detection. By translating biological ocular metrics into deterministic operating system cursor operations, the project delivers a low-latency, non-invasive digital accessibility platform powered by edge computer vision.",
 
         technologies: [
-            "Computer Vision",
-            "Eye Tracking",
             "Python",
-            "OpenCV",
-            "Human Computer Interaction"
+            "OpenCV Framework",
+            "MediaPipe Perceptual Pipelines",
+            "Computer Vision Processing",
+            "Gaze Telemetry & Eye Tracking",
+            "Tkinter GUI Architecture"
         ],
 
         tags: [
-            "Healthcare",
-            "Accessibility",
-            "Assistive Technology"
+            "Healthcare AI",
+            "Assistive Biocomputing",
+            "Computer Vision",
+            "Gaze Telemetry",
+            "Digital Accessibility",
+            "Human-Computer Interaction (HCI)"
         ],
 
         github: "https://github.com/Neuzura-Technologies/neuzura-website",
 
         linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
+
         year: 2024,
     },
-
+//5
     {
-        id: "smart-fisherman",
+        id: "multimodal-fall-detection",
 
-        slug: "smart-fisherman-maritime-safety",
+        slug: "explainable-multimodal-fall-detection",
 
-        title: "Smart Fisherman Maritime Safety System",
+        title: "Explainable Multimodal Fall Detection via Audio–Kinematic Fusion",
 
-        subtitle: "IoT • GPS • Mobile Application",
+        subtitle: "Audio–Kinematic Sensor Fusion • Explainable AI (XAI) • Telehealth Edge Systems",
 
-        category: "IoT",
+        category: "Healthcare",
 
-        status: "Completed",
+        status: "In Progress",
 
         featured: false,
 
-        thumbnail: "/projects/vessel.jpg",
+        thumbnail: "/projects/fall.png",
 
         shortDescription:
-            "An IoT-enabled maritime safety platform that alerts fishermen before crossing international sea boundaries.",
+            "A high-reliability telehealth framework combining audio acoustic analysis and IMU kinematic streams via an explainable neural network architecture for intelligent anomaly detection.",
 
         fullDescription:
-            "Developed a GPS-enabled mobile and IoT solution for monitoring fishing vessel locations and generating real-time alerts when approaching maritime boundaries. The system improves fisherman safety through live tracking, Firebase connectivity, and intelligent notifications.",
+            "Developing an advanced clinical-grade monitoring framework optimized for human fall detection via multimodal deep learning. The architecture processes heterogeneous inputs—fusing spatial-temporal kinematic vectors from wearable IMU sensors with ambient acoustic signatures—to maximize diagnostic specificity in high-noise environments. To meet regulatory compliance, Explainable AI (XAI) feature attribution maps (such as SHAP or Integrated Gradients) clarify the model's predictive pathways, while an adaptive threat response scoring module calculates real-time incident severity metrics to optimize emergency dispatch protocols.",
 
         technologies: [
-            "Firebase",
-            "Android",
-            "GPS",
-            "IoT",
-            "Google Maps"
+            "Python",
+            "Deep Learning Models",
+            "Multimodal Data Fusion",
+            "Explainable AI (XAI) Architectures",
+            "Supervised Machine Learning",
+            "Sensor Fusion Paradigms",
+            "Acoustic Digital Signal Processing (DSP)"
         ],
 
         tags: [
-            "IoT",
-            "Safety",
-            "Mobile",
-            "GPS"
+            "Healthcare AI Systems",
+            "Biomechanical Anomaly Detection",
+            "Explainable AI",
+            "Human Activity Recognition (HAR)",
+            "Inertial Sensor Arrays",
+            "Acoustic Telemetry",
+            "Clinical Patient Monitoring"
         ],
 
         github: "https://github.com/Neuzura-Technologies/neuzura-website",
 
         linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
-        year: 2024,
-    },
 
+        year: 2026,
+    },
+//6
     {
         id: "tamil-valam",
 
@@ -343,7 +243,7 @@ export const PROJECTS: Project[] = [
 
         title: "Tamil Valam Mobile Application",
 
-        subtitle: "Award-Winning Government Mobile Application",
+        subtitle: "State-Recognized Regional Content Delivery Architecture",
 
         category: "Mobile",
 
@@ -354,21 +254,21 @@ export const PROJECTS: Project[] = [
         thumbnail: "/projects/Thamizh.png",
 
         shortDescription:
-            "Developed a Tamil language mobile application presented during Niral Thiruvizha and recognized with a Tamil Nadu government award.",
+            "Engineered an award-winning regional language localization mobile platform presented at Niral Thiruvizha and officially commended by the Government of Tamil Nadu.",
 
         fullDescription:
-            "Designed and developed the Tamil Valam mobile application as part of an academic innovation initiative showcased during Niral Thiruvizha. The application received recognition and a ₹10,000 award from the Government of Tamil Nadu.",
+            "Conceptualized and developed the 'Tamil Valam' mobile application as part of a competitive software engineering incubator program at Niral Thiruvizha. Leveraging cloud-based document schemas and performant rendering layers, the architecture achieved a state government innovation grant of ₹10,000 for exceptional UI/UX localization and content optimization infrastructure.",
 
         technologies: [
-            "Android",
-            "Java",
-            "Firebase"
+            "Android SDK",
+            "Java Architecture",
+            "Firebase Backend-as-a-Service (BaaS)"
         ],
 
         tags: [
-            "Mobile",
-            "Android",
-            "Award"
+            "Mobile Architecture",
+            "Native Android",
+            "Government Innovation Award"
         ],
 
         github: "https://github.com/Neuzura-Technologies/neuzura-website",
@@ -377,7 +277,149 @@ export const PROJECTS: Project[] = [
 
         year: 2023,
     },
+//7
+    {
+        id: "grain-insect-detection",
+        slug: "open-vocabulary-ai-pest-detection",
 
+        title: "Open-Vocabulary AI Pest Detection for Industrial Grain Storage",
+
+        subtitle: "YOLO-World Open-Vocabulary Inference • SAHI Tiling Framework • Zero-Shot Object Recognition",
+
+        category: "Artificial Intelligence",
+
+        status: "Completed",
+
+        featured: false,
+
+        thumbnail: "/projects/SAHI.png",
+
+        shortDescription:
+            "Developed an industrial-grade computer vision pipeline leveraging open-vocabulary zero-shot generalization and slicing-aided sub-image inference for high-resolution target acquisition.",
+
+        fullDescription:
+            "Designed and implemented an automated biosecurity inspection framework that marries Slicing-Aided Hyper Inference (SAHI) with open-vocabulary YOLO-World deep neural networks. Optimized for gigapixel industrial insect trap imaging, the pipeline applies sub-window sliding inference to preserve fine-grained morphological structures. This architecture bypasses static category limitations through zero-shot textual embedding extraction, providing adaptive spatial auditing metrics for large-scale grain storage infrastructure.",
+
+        technologies: [
+            "YOLO-World Open Vocabulary Model",
+            "Slicing-Aided Hyper Inference (SAHI)",
+            "Zero-Shot Generalization",
+            "Open Vocabulary Object Detection",
+            "Advanced Computer Vision",
+            "Python",
+            "Deep Neural Networks"
+        ],
+
+        tags: [
+            "Computer Vision Architecture",
+            "AgTech Infrastructure",
+            "Industrial AI Systems",
+            "YOLO Object Detection",
+            "Applied Machine Learning Research"
+        ],
+
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        year: 2025,
+    },
+//8
+    {
+        id: "smart-waste-classification",
+
+        slug: "ai-smart-waste-classification",
+
+        title: "AI Smart Waste Classification System",
+
+        subtitle: "VGG16 Architecture • Deep Transfer Learning • Comparative Classifier Auditing",
+
+        category: "Artificial Intelligence",
+
+        status: "Completed",
+
+        featured: false,
+
+        thumbnail: "/projects/waste.jpeg",
+
+        shortDescription:
+            "An intelligent resource sorting framework utilizing deep feature extraction and comparative machine learning architectures for high-throughput material segregation.",
+
+        fullDescription:
+            "Engineered a computer vision–driven classification engine to automate multi-class municipal solid waste segregation. The system utilizes a deep convolutional backbone (VGG16 and MobileNet) as a feature extractor, running an extensive benchmark suite across downstream classifiers, including Softmax dense networks, Support Vector Machines (SVM) with radial basis kernels, and Random Forest ensembles. This implementation isolated the optimal architecture to fulfill tight latency constraints for edge sorting devices.",
+
+        technologies: [
+            "VGG16 Convolutional Backbone",
+            "MobileNet Topologies",
+            "TensorFlow Engine",
+            "Python Pipelines",
+            "Softmax Decision Layers",
+            "Random Forest Classifiers",
+            "Support Vector Machines (SVM)"
+        ],
+
+        tags: [
+            "Artificial Intelligence Systems",
+            "Computer Vision Paradigms",
+            "Deep Transfer Learning",
+            "Ecological Sustainability Infrastructure"
+        ],
+
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
+        year: 2025,
+    },
+//9
+    {
+        id: "atrs-multimodal-detection",
+
+        slug: "atrs-driven-multimodal-detection",
+
+        title: "ATRS-Driven Multimodal Detection with Real-Time Voice Interaction and Intelligent Nurse Alerting",
+
+        subtitle: "Clinical Healthcare AI • Speech Intelligence Subsystems • Smart Patient Telemetry Platforms",
+
+        category: "Healthcare",
+
+        status: "Completed",
+
+        featured: false,
+
+        thumbnail: "/projects/nurse.png",
+
+        shortDescription:
+            "Engineered a dynamic, multimodal clinical intelligence platform combining sensory telemetry, predictive risk scoring, conversational agents, and automated dispatch routing.",
+
+        fullDescription:
+            "Designed and implemented an enterprise healthcare telemetry and alerting infrastructure engineered to continuously assess critical patient indicators via heterogeneous sensor inputs. The system computes a dynamic Adaptive Threat Response Score (ATRS) to prioritize patient risk in real time, while integrating an interactive natural language interface for hands-free patient feedback loops. Upon diagnosing acute biometric deviations, the algorithmic dispatch layer automatically registers incident priority levels, flags on-duty clinical staff devices, and transmits structured context payloads to optimize turnaround times in critical care workflows.",
+
+        technologies: [
+            "Python Data Engineering",
+            "Artificial Intelligence Topologies",
+            "Supervised Machine Learning",
+            "Automated Speech Recognition (ASR)",
+            "Multimodal AI Models",
+            "IoT Architecture",
+            "Real-Time Stream Processing"
+        ],
+
+        tags: [
+            "Healthcare AI Infrastructure",
+            "Patient Telemetry Analytics",
+            "Conversational Bio-Interfaces",
+            "Smart Hospital Automation",
+            "Clinical Alert Orchestration",
+            "Multimodal Intelligence Layers"
+        ],
+
+        github: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+        year: 2025,
+    },
+//10
     {
         id: "low-light-object-detection",
 
@@ -385,7 +427,7 @@ export const PROJECTS: Project[] = [
 
         title: "Low-Light Object Detection System",
 
-        subtitle: "Computer Vision • Deep Learning • Low-Light AI",
+        subtitle: "Computer Vision • Deep Learning Enhancements • Illumination-Invariant AI Models",
 
         category: "Artificial Intelligence",
 
@@ -396,25 +438,25 @@ export const PROJECTS: Project[] = [
         thumbnail: "/projects/darken.png",
 
         shortDescription:
-            "Developed a deep learning–based object detection system capable of recognizing real-world objects in challenging low-light environments using benchmark nighttime datasets.",
+            "Developed an illumination-invariant deep object detection framework optimized for highly degraded, low-light urban and outdoor structural operational profiles.",
 
         fullDescription:
-            "Designed and implemented an intelligent low-light object detection system using deep learning and computer vision techniques. The project focused on improving object recognition under poor illumination by training and evaluating models on benchmark low-light datasets, including ExDark and ARID. The system successfully detected objects such as bicycles, pedestrians, vehicles, and other everyday objects in challenging nighttime environments. Image preprocessing, model inference, and performance evaluation were integrated to enhance detection robustness for applications in intelligent surveillance, autonomous robotics, smart transportation, and outdoor monitoring.",
+            "Designed and evaluated a robust low-light computer vision architecture designed to mitigate spatial information loss caused by poor lux conditions. By training neural feature extractors on low-light benchmark datasets such as ExDark and ARID, the pipeline achieves robust structural boundary classification for targets including pedestrians, static objects, and transport units. The software integrates high-speed gamma and contrast correction heuristics, deep model inference optimization, and validation protocols tailored for edge deployments in smart traffic surveillance and autonomous vehicular perception.",
 
         technologies: [
-            "Python",
-            "OpenCV",
-            "Deep Learning",
-            "Computer Vision"
+            "Python Systems",
+            "OpenCV Vision Library",
+            "Deep Learning Frameworks",
+            "Computer Vision Processing"
         ],
 
         tags: [
-            "Artificial Intelligence",
-            "Computer Vision",
-            "Object Detection",
-            "Low-Light Vision",
-            "ExDark",
-            "ARID"
+            "Artificial Intelligence Systems",
+            "Computer Vision Perception",
+            "Robust Object Detection",
+            "Low-Light Performance Tuning",
+            "ExDark Benchmark Evaluation",
+            "ARID Dataset Auditing"
         ],
 
         github: "https://github.com/Neuzura-Technologies/neuzura-website",
@@ -423,91 +465,102 @@ export const PROJECTS: Project[] = [
 
         year: 2023,
     },
-
+//11   
     {
-        id: "business-intelligence",
+    id: "bldc-motor-control",
 
-        slug: "business-intelligence-dashboard",
+    slug: "ann-based-back-emf-prediction-sensorless-bldc-control",
 
-        title: "Business Intelligence & Predictive Analytics Dashboard",
+    title: "ANN-Based Back-EMF Prediction for Sensorless BLDC Motor Velocity Control Using Zero-Cross Detection",
 
-        subtitle: "Power BI • Regression Analysis",
+    subtitle: "Artificial Neural Networks • Sensorless Commutation Controllers • Industrial IoT Nodes",
 
-        category: "Data Analytics",
+    category: "IoT",
+
+    status: "In Progress",
+
+    featured: false,
+
+    thumbnail: "/projects/bldc.png",
+
+    shortDescription:
+        "Developing a sensorless Brushless DC (BLDC) commutation framework utilizing Artificial Neural Networks (ANN) for Back-EMF regression modeling and adaptive closed-loop velocity regulation.",
+
+    fullDescription:
+        "This research isolates the development of an intelligent, sensorless electronic commutation control paradigm for Brushless DC (BLDC) motors. By leveraging deep regression Artificial Neural Networks (ANN), the architecture models and predicts non-linear Back Electromotive Force (Back-EMF) behaviors to accurately detect Zero-Crossing Events (ZCD). By eliminating classical physical Hall-effect sensory requirements, the system mitigates hardware complexity, mechanical failure thresholds, and overall bill-of-materials (BOM) overhead. The embedded computing workflow runs on a Raspberry Pi 4 coprocessor, streaming predictive diagnostic data via an IoT broker configuration to achieve industrial remote state monitoring, live execution profiling, and intelligent automation management.",
+
+    technologies: [
+        "Artificial Neural Networks (ANN)",
+        "Back-EMF Regression Modeling",
+        "Zero-Cross Detection (ZCD) Math",
+        "Sensorless BLDC Architecture",
+        "Raspberry Pi 4 Embedded SoC",
+        "Python Subsystems",
+        "Embedded Systems Engineering",
+        "Industrial IoT (IIoT)",
+        "Blynk Telemetry Engine"
+    ],
+
+    tags: [
+        "Artificial Intelligence Architectures",
+        "Sensorless Control Systems",
+        "BLDC Motor Optimization",
+        "Back-EMF Diagnostics",
+        "Zero-Cross Signal Processing",
+        "Embedded Edge AI",
+        "Industrial Automation Frameworks",
+        "Industrial IoT (IIoT)",
+        "Robotics Systems Control"
+    ],
+
+    github: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+    linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
+
+    year: 2026,
+    },
+//12
+    {
+        id: "smart-fisherman",
+
+        slug: "smart-fisherman-maritime-safety",
+
+        title: "Smart Fisherman Maritime Safety System",
+
+        subtitle: "Edge IoT Architecture • GNSS Geofencing Telemetry • Cross-Platform Mobile Application",
+
+        category: "IoT",
 
         status: "Completed",
 
         featured: false,
 
-        thumbnail: "/projects/power.png",
+        thumbnail: "/projects/user.jpg",
 
         shortDescription:
-            "Developed interactive business intelligence dashboards with predictive analytics for enterprise decision-making.",
+            "An edge IoT-enabled maritime telematics system deploying low-latency GNSS tracking algorithms and real-time geofencing protocols to prevent international boundary infractions.",
 
         fullDescription:
-            "Created analytical dashboards using Power BI for business data visualization and predictive regression analysis. The project transformed raw enterprise datasets into actionable insights supporting strategic business decisions.",
+            "Engineered an IoT-driven maritime safety architecture integrating high-precision Global Navigation Satellite System (GNSS) telemetry with cross-platform mobile visualization endpoints. The edge computing layer parses vessel coordinates in real time, running polygon-in-polygon calculations against sovereign maritime boundary polygons. Upon approaching defined thresholds, the system pushes asynchronous state synchronization packets via a Firebase data layer to generate immediate audio-visual boundary warnings for vessel operators.",
 
         technologies: [
-            "Power BI",
-            "Regression Analysis",
-            "Data Analytics",
-            "Business Intelligence"
+            "Firebase Distributed Realtime Database",
+            "Android SDK Core",
+            "GNSS Global Positioning Architectures",
+            "IoT Firmware Engineering",
+            "Google Maps APIs & Spatial Layers"
         ],
 
         tags: [
-            "Power BI",
-            "Analytics",
-            "Business Intelligence"
+            "IoT Architecture",
+            "Maritime Telematics Safety",
+            "Mobile Infrastructure",
+            "GNSS Spatial Auditing"
         ],
 
         github: "https://github.com/Neuzura-Technologies/neuzura-website",
 
         linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
-        
         year: 2024,
     },
-
-    {
-        id: "gesture-drone",
-
-        slug: "hand-gesture-drone-control",
-
-        title: "Hand Gesture Controlled Drone Simulation",
-
-        subtitle: "Computer Vision • Human Drone Interaction",
-
-        category: "Robotics",
-
-        status: "Completed",
-
-        featured: false,
-
-        thumbnail: "/projects/logo.png",
-
-        shortDescription:
-            "Designed a gesture recognition system for intuitive drone navigation using computer vision.",
-
-        fullDescription:
-            "Developed a real-time gesture-controlled drone simulation that interprets natural hand movements as flight commands. The project demonstrates intuitive human-drone interaction using computer vision techniques without traditional controllers.",
-
-        technologies: [
-            "Computer Vision",
-            "Python",
-            "OpenCV",
-            "Gesture Recognition"
-        ],
-
-        tags: [
-            "Drone",
-            "Robotics",
-            "Computer Vision"
-        ],
-
-        github: "https://github.com/Neuzura-Technologies/neuzura-website",
-
-        linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
-
-        year: 2024,
-    },
-    
 ];
