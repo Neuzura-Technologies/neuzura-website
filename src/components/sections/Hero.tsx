@@ -79,8 +79,8 @@ function Hero() {
                     <div className="mt-14 flex flex-wrap gap-6 items-center">
                         {[
                             { icon: Shield, text: 'IP Protected' },
-                            { icon: Award, text: '100+ Patents Supported' },
-                            { icon: Brain, text: 'AI & Robotics Experts' },
+                            { icon: Award, text: '150+ Patents Supported' },
+                            { icon: Brain, text: 'AI & Robotics' },
                         ].map(({ icon: Icon, text }) => (
                             <div key={text} className="flex items-center gap-2 text-white text-sm font-bold bg-slate-900/60 px-3 py-1.5 rounded-lg backdrop-blur-md border border-white/20 shadow-lg">
                                 <Icon size={16} className="text-blue-400" />

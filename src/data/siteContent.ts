@@ -199,52 +199,85 @@ export const  SITE_CONTENT = {
 
     about: {
         heading: "About Neuzura Technologies",
-
         subheading:
-            "Neuzura Technologies is a technology and innovation company delivering Software Development, Artificial Intelligence, Robotics, Intellectual Property Services, Research Consulting, and Professional Training. We help individuals and organizations transform innovative ideas into practical technology solutions and protected intellectual property.",
+            "Neuzura Technologies is a technology and innovation company with over 4 years of experience delivering Software Development, AI, Robotics, and Intellectual Property solutions. Registered as an MSME for the past 2 years, we help innovators and organizations transform ideas into practical technology and protected assets.",
 
-        approach: {
+            approach: {
             heading: "What We Do",
-
             points: [
                 {
                     icon: "Zap",
                     title: "Technology Development",
-                    body:
-                        "We design and develop software, artificial intelligence, robotics, embedded systems, automation, and intelligent digital solutions for real-world applications.",
+                    body: "We design and develop software, artificial intelligence, robotics, embedded systems, automation, and intelligent digital solutions for real-world applications.",
                 },
-
                 {
                     icon: "Cpu",
                     title: "Intellectual Property Services",
-                    body:
-                        "We support innovators through patent drafting, patent filing, prior art searches, design registration, copyright registration, and innovation documentation.",
+                    body: "We support innovators through patent drafting, patent filing, prior art searches, design registration, copyright registration, and innovation documentation.",
                 },
-
                 {
                     icon: "Users",
                     title: "Research & Innovation Consulting",
-                    body:
-                        "We collaborate with researchers, startups, educational institutions, MSMEs, and organizations to transform innovative ideas into practical products and scalable solutions.",
+                    body: "We collaborate with researchers, startups, educational institutions, MSMEs, and organizations to transform innovative ideas into practical products and scalable solutions.",
                 },
             ],
         },
 
-        
-
         vision: {
             heading: "Vision",
-
-            body:
-                "To become a globally trusted technology and innovation company that empowers individuals, organizations, researchers, and businesses through intelligent technology, engineering excellence, and protected innovation.",
+            body: "To become a globally trusted technology and innovation company that continuously empowers individuals, organizations, researchers, and progressive businesses through intelligent technology, advanced engineering excellence, and comprehensive protected innovation strategies worldwide.",
         },
 
         mission: {
             heading: "Mission",
-
-            body:
-                "To bridge research, technology, and intellectual property by delivering practical software, AI, robotics, consulting, and innovation services that create long-term value for society.",
+            body: "To seamlessly bridge academic research, advanced technology, and intellectual property by delivering practical software, AI, robotics, expert consulting, and innovation services that create sustainable, lasting value for our global society.",
         },
+
+        whoWeWorkWith: {
+            heading: "Who We Work With",
+            items: [
+                "Researchers",
+                "Students",
+                "Educational Institutions",
+                "Startups",
+                "MSMEs",
+                "Innovators",
+            ]
+        },
+
+        departments: {
+            heading: "Departments We Support",
+            subheading: "We work across multidisciplinary domains—not limited to engineering.",
+            items: [
+                "Engineering",
+                "Medical & Healthcare",
+                "Commerce",
+                "Management",
+                "Law",
+                "Education",
+                "Arts & Science",
+                "Agriculture",
+                "Pharmacy",
+                "Interdisciplinary Projects",
+            ]
+        },
+
+        team: {
+            enabled: false,
+            heading: "Leadership Team",
+            members: [
+                {
+                    name: "Deepika G.",
+                    role: "Founder & CTO",
+                    bio: "Holding a B.Tech in AI & DS and an M.Tech in Robotics and Automation, she spearheads our R&D. Her expertise lies in advanced simulation, AI-driven perception pipelines, and engineering high-performance technical systems.",
+                },
+                {
+                    name: "Ramachandran",
+                    role: "Co-Founder & CEO",
+                    bio: "With a B.Tech in AI & DS and an M.Tech in Robotics and Automation, he drives our strategic vision and operational excellence, bridging the gap between deep-tech research and tailored client solutions.",
+                }
+            ]
+        }
     },
 
     contact: {
@@ -255,60 +288,70 @@ export const  SITE_CONTENT = {
             number: '919360090778', // Enter your full number with country code (e.g., 91 for India), no plus or spaces
             defaultMessage: 'Hi Neuzura Technologies, I would like to know more about your services.',
         },
-        tabs: {
-            consultation: 'Book a Consultation',
-            workshop: 'Workshop Enquiry',
-        },
-        consultation: {
-            heading: 'Request a Consultation',
-            description:
-                'Speak with our specialists about your IP, AI, or Robotics requirements. We typically respond within one business day.',
-            serviceOptions: [
-                'Patent Support',
-                'AI / Machine Learning R&D',
-                'Robotics R&D',
-                'Product Innovation Consulting',
-                'Workshops & Training',
-                'Other Technical Services',
-            ],
-            fields: {
-                name: 'Full Name',
-                email: 'Email Address',
-                organization: 'Organization / Institution',
-                serviceInterest: 'Service Interest',
-                message: 'Tell us about your project or requirements',
+    },
+
+    // Add this right above the footer block in your siteContent.ts file
+    testimonials: {
+        badge: "Google Reviews",
+        heading: "What Our Clients Say",
+        reviews: [
+            {
+                id: 1,
+                name: "Bhoomika Lakshminarayana",
+                source: "Google Review",
+                text: "Excellent and smooth experience with Neuzura Technologies. Special mention to Mr. Ramachandran and his team for ensuring timely commitments. His guidance, prompt replies, and patience made the entire journey peaceful.",
+                rating: 5,
             },
-            submitLabel: 'Send Consultation Request',
-            successTitle: 'Request Received',
-            successMessage:
-                'Thank you for reaching out. A Neuzura specialist will contact you within one business day.',
-        },
-        workshop: {
-            heading: 'Workshop Registration & Enquiry',
-            description:
-                'Enroll your team, students, or institution in our AI, ML, or Robotics training programmes. We offer flexible formats including full-day intensives, multi-week cohorts, and corporate customized sessions.',
-            serviceOptions: [
-                'Patent & Intellectual Property Services',
-                'Artificial Intelligence & Machine Learning',
-                'Robotics Research & Development',
-                'Research & Academic Consultancy',
-                'Professional Training & Workshops',
-                'Startup & Technology Consulting',
-                'Web & Mobile Application Development',
-                'Other',
-            ],
-            fields: {
-                name: 'Full Name',
-                email: 'Email Address',
-                organization: 'Organization / Institution',
-                serviceInterest: 'Workshop Programme',
-                message: 'Describe your team size, goals, or preferred schedule',
+            {
+                id: 2,
+                name: "Nithyashree Muralidharan",
+                source: "Google Review",
+                text: "Excellent experience with Neuzura Technologies! Their team provided professional guidance, understood my requirements perfectly, and completed my patent publication within the committed timeline. Highly recommended for reliable and seamless patent filing services!",
+                rating: 5,
             },
-            submitLabel: 'Submit Workshop Enquiry',
-            successTitle: 'Enquiry Received',
-            successMessage:
-                'Thank you for your workshop interest. Our training team will reach out within one business day to discuss your requirements.',
-        },
+            {
+                id: 3,
+                name: "Bejoy Joseph",
+                source: "Google Review",
+                text: "Excellent service. If you have an idea, this is the best team to rely on for publishing it. They take great care of your ideas and provide all the relevant guidance throughout the process.",
+                rating: 5,
+            },
+            {
+                id: 4,
+                name: "Suresh T S",
+                source: "Google Review",
+                text: "Excellent service with a very friendly approach.",
+                rating: 5,
+            },
+            {
+                id: 5,
+                name: "Navaneethan Mathiyazhagan",
+                source: "Google Review",
+                text: "Mr. Ramachandran is an excellent person. He guided me perfectly in applying for a patent at an affordable price. Thank you and kudos to the team.",
+                rating: 5,
+            },
+            {
+                id: 6,
+                name: "Manjesh Mathew",
+                source: "Google Review",
+                text: "Excellent service.",
+                rating: 5,
+            },
+            {
+                id: 7,
+                name: "Senthilnathan S",
+                source: "Google Review",
+                text: "Always providing top-notch service.",
+                rating: 5,
+            },
+            {
+                id: 8,
+                name: "Alan George",
+                source: "Google Review",
+                text: "Good job at Patent filing",
+                rating: 5,
+            }
+        ]
     },
 
     footer: {

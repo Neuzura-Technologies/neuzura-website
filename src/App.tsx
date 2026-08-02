@@ -5,7 +5,7 @@ import Projects from "./components/sections/Projects";
 import Achievements from "./components/sections/Achievements";
 import About from "./components/sections/About";
 import Contact from "./components/sections/Contact";
-
+import Testimonials from "./components/sections/Testimonials";
 import Footer from "./components/layout/Footer";
 import WhatsAppButton from "./components/layout/WhatsAppButton";
 
@@ -28,6 +28,8 @@ export default function App() {
         <Achievements />
 
         <About />
+
+        <Testimonials />
 
         <Contact />
 
