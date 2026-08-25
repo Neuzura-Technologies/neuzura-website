@@ -56,7 +56,7 @@ export const PROJECTS: Project[] = [
 
         category: "Robotics",
 
-        status: "Completed",
+        status: "In Progress",
 
         featured: true,
 
@@ -92,7 +92,7 @@ export const PROJECTS: Project[] = [
 
         linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
 
-        year: 2024,
+        year: 2026,
     },
 //3
     {
@@ -135,7 +135,7 @@ export const PROJECTS: Project[] = [
         github: "https://github.com/Neuzura-Technologies/neuzura-website",
 
         linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
-        year: 2024,
+        year: 2025,
     },
 //4
     {
@@ -183,7 +183,7 @@ export const PROJECTS: Project[] = [
 
         linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
 
-        year: 2024,
+        year: 2025,
     },
 //5
     {
@@ -275,7 +275,7 @@ export const PROJECTS: Project[] = [
 
         linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
 
-        year: 2023,
+        year: 2024,
     },
 //7
     {
@@ -288,7 +288,7 @@ export const PROJECTS: Project[] = [
 
         category: "Artificial Intelligence",
 
-        status: "Completed",
+        status: "In Progress",
 
         featured: false,
 
@@ -322,7 +322,7 @@ export const PROJECTS: Project[] = [
 
         linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
 
-        year: 2025,
+        year: 2026,
     },
 //8
     {
@@ -382,7 +382,7 @@ export const PROJECTS: Project[] = [
 
         category: "Healthcare",
 
-        status: "Completed",
+        status: "In Progress",
 
         featured: false,
 
@@ -417,7 +417,7 @@ export const PROJECTS: Project[] = [
 
         linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
 
-        year: 2025,
+        year: 2026,
     },
 //10
     {
@@ -463,7 +463,7 @@ export const PROJECTS: Project[] = [
 
         linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
 
-        year: 2023,
+        year: 2025,
     },
 //11   
     {
@@ -477,7 +477,7 @@ export const PROJECTS: Project[] = [
 
     category: "IoT",
 
-    status: "In Progress",
+    status: "Completed",
 
     featured: false,
 
@@ -517,7 +517,7 @@ export const PROJECTS: Project[] = [
 
     linkedin: "https://github.com/Neuzura-Technologies/neuzura-website",
 
-    year: 2026,
+    year: 2025,
     },
 //12
     {
